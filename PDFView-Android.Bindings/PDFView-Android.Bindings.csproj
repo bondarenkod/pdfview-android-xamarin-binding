@@ -14,7 +14,7 @@
     <AssemblyName>Xamarin.Bindings.PDFView-Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <NuGetPackageImportStamp>
@@ -46,8 +46,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\pdfview-android-1.0.0-1438138.aar" />
-    <EmbeddedResource Include="Jars\kotlin-stdlib-1.4.10.jar" LogicalName="pdfview_kotlin_stdlib.jar" />
+    <LibraryProjectZip Include="Jars\pdfview-android-release.aar" />
+    <EmbeddedResource Include="Jars\org.jetbrains.kotlin.kotlin-stdlib-1.9.0.jar" LogicalName="pdfview_kotlin_stdlib.jar" />
     <None Include="build\Xamarin.Bindings.PDFView-Android.targets" />
     <None Include="Xamarin.Bindings.PDFView-Android.nuspec" />
   </ItemGroup>
